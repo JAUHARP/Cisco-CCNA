@@ -1,0 +1,23 @@
+This lab simulates a layered network topology with hierarchical design using multiple routers, switches, PCs, and a server. The objective is to practice appropriate cabling, understand distance limitations, and reinforce structured network layout using Cisco Packet Tracer.
+
+Devices Used:
+
+4 × Cisco Routers (R1, R2, R3, R4)
+8 × Cisco Switches (SW1 to SW8)
+3 × PCs (PC1, PC2, PC3)
+1 × Server (SRV1)
+
+Distance Constraints and Cable Types:
+
+- R1–R2 (50 meters): Use Copper Straight-through Cable
+- R1–R3 (3 kilometers): Use Fiber Cable
+- R3–R4 (250 meters): Use Fiber or appropriate media
+- Switch to PC/Server: Use Copper Straight-through
+- Switch to Switch: Use Copper Crossover Cable (assume Auto MDI-X is off)
+
+Learning Objectives:
+
+- Understand correct use of cabling types in different scenarios
+- Implement and connect a scalable, multi-layer network
+- Apply distance-based cable selection in Packet Tracer
+- Reinforce concepts of access, distribution, and core layers
