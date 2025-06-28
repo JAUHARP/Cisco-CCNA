@@ -1,0 +1,30 @@
+This lab focuses on OSI layer analysis and simulation-based network diagnostics using Cisco Packet Tracer. It includes a basic routed network topology with a PC, switches, routers, and a server. The task is to use simulation mode to observe how different types of traffic traverse the network and identify the corresponding OSI layers.
+
+Devices Used:
+
+2 × Cisco 2911 Routers (R1, R2)
+2 × Cisco 2960 Switches (SW1, SW2)
+1 × PC (PC1)
+1 × Server (SRV1)
+
+IP Addressing:
+
+- PC1: DHCP assigned from server
+- SRV1: 192.168.1.100/24
+- Router Interfaces:
+  - R1 G0/0: 192.168.1.1/24
+  - R1 G0/1: 10.0.0.1/24
+  - R2 G0/0: 10.0.0.2/24
+
+Learning Objectives:
+
+- Use simulation mode to inspect and analyze traffic (Layer 2 to Layer 7)
+- Observe protocol behavior such as DHCP (Layer 7), ARP (Layer 2), ICMP (Layer 3)
+- Release and renew IP address of PC1 to generate Layer 7 traffic
+- Understand traffic flow through routers and across subnets
+
+Tasks:
+
+1. Enable simulation mode and capture the flow of traffic.
+2. Identify OSI layers involved in DHCP, ICMP, and data communication.
+3. Analyze the role of switches and routers in packet forwarding.
