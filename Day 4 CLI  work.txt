@@ -1,0 +1,163 @@
+R1 con0 is now available
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+R1>enable
+Password: 
+R1#exit
+
+
+
+
+R1 con0 is now available
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+R1>en
+Password: 
+Password: 
+Password: 
+% Bad secrets
+
+R1>enable
+Password: 
+R1#sh run
+Building configuration...
+
+Current configuration : 711 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname R1
+!
+!
+!
+enable password CCNA
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+
+R1#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#service password encryption
+                            ^
+% Invalid input detected at '^' marker.
+	
+R1(config)#service password-encryption
+R1(config)#do sh run
+Building configuration...
+
+Current configuration : 716 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname R1
+!
+!
+!
+enable password 7 08026F6028
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+
+R1(config)#enable secret cisco
+R1(config)#do sh run
+Building configuration...
+
+Current configuration : 763 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname R1
+!
+!
+!
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
+enable password 7 08026F6028
+!
+!
+!
+!
+!
+!
+ip cef
+
+R1(config)#exit
+R1#
+%SYS-5-CONFIG_I: Configured from console by console
+exit
+
+
+
+R1 con0 is now available
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+R1>en
+Password: 
+Password: 
+R1#write 
+Building configuration...
+[OK]
+R1#write memory
+Building configuration...
+[OK]
+R1#copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+R1#
+R1#
+
+give this in an image like a screenshot from terminal in a computer

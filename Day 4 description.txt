@@ -1,0 +1,84 @@
+This lab focuses on basic password security configuration on a Cisco router using the CLI in Packet Tracer.
+Students will set the hostname, configure unencrypted and encrypted passwords, test access, view encryption formats, and save configurations. This exercise highlights the difference between enable password and enable secret.
+
+Devices Used:
+
+• 1 × Cisco 2911 Router (R1)
+
+Learning Objectives:
+
+• Configure the router hostname using global configuration mode
+• Set an unencrypted enable password
+• Encrypt all current and future passwords using service password-encryption
+• Configure a secure enable secret password
+• Observe and compare encryption types (Type 7 vs Type 5)
+• Save the configuration to startup-config
+
+Tasks & Commands:
+1. Change the hostname of router
+
+   R1(config)# hostname R1  
+
+2. Configure an unencrypted enable password (CCNA)
+
+   R1(config)# enable password CCNA  
+   
+
+3. Exit to user EXEC mode and test the password
+   Use exit multiple times to return to user mode, then type enable to enter privileged EXEC mode.
+
+   > exit
+   > enable  
+   Password: CCNA
+
+4. View the password in the running configuration
+
+   R1# show running-config
+
+5. Encrypt all current and future passwords
+
+   R1(config)# service password-encryption  
+  
+6. View the now encrypted password again
+
+   R1# show running-config  
+
+7. Set a secure enable secret password (Cisco)
+
+   R1(config)# enable secret Cisco  
+   
+8. Test which password is required to access privileged mode
+
+   > enable  
+   Password: Cisco  ✅  
+  (Note: enable secret overrides enable password if both are set)
+
+9. View encryption types in running configuration
+
+   R1# show running-config  
+   ! Type 7 is used for `enable password`  
+   ! Type 5 is used for `enable secret`
+
+10.Save the configuration to startup-config
+
+
+R1# copy running-config startup-config  
+Destination filename [startup-config]? [Press Enter]
+
+Devices Used:
+
+• 1 × Cisco 2911 Router (R1)
+
+• 2 × Cisco 2960 Switch (SW1)
+
+• 3 × PCs (PC1, PC2, PC3)
+
+Learning Outcomes:
+
+Configure and secure access using enable passwords
+
+Understand and apply password encryption
+
+Differentiate between enable password and enable secret
+
+Save and verify configurations using show and copy commands
