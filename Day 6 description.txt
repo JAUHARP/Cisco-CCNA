@@ -1,0 +1,23 @@
+Understand how Ethernet LAN switches handle MAC address learning and ARP resolution during initial communication on a network with an empty MAC and ARP table.
+
+Tasks Completed:
+
+Simulated a network with 4 PCs and 2 switches using Packet Tracer.
+
+Observed ARP and ICMP (ping) message propagation from PC1 to PC3 when MAC and ARP tables were initially empty.
+
+Used Simulation Mode to monitor ARP broadcast, MAC learning, and ICMP echo/reply paths.
+
+Verified MAC address learning using show mac address-table on switches.
+
+Demonstrated MAC address table clearing and re-learning behavior through repeated pings.
+
+Key Learnings:
+
+Switches flood frames when the destination MAC is unknown.
+
+ARP requests are broadcast to find the destination MAC.
+
+Switches dynamically learn MAC addresses from incoming frames.
+
+MAC tables are vital for efficient frame forwarding within LANs.
