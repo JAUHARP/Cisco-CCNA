@@ -1,0 +1,25 @@
+Understand the structure and components of an Ethernet frame and how data is encapsulated at the Data Link Layer (Layer 2) of the OSI model.
+
+Key Components of Ethernet Frame:
+
+Preamble: 7-byte pattern used for synchronization.
+
+SFD (Start Frame Delimiter): 1-byte flag indicating the start of the frame.
+
+Destination MAC: 6-byte address of the receiving device.
+
+Source MAC: 6-byte address of the sending device.
+
+Type/Length: Identifies the protocol or length of the payload.
+
+Payload (Packet): Actual data being transmitted.
+
+FCS (Frame Check Sequence): 4-byte CRC used to detect transmission errors.
+
+Key Takeaways:
+
+Ethernet frames ensure proper data delivery across a local network.
+
+Each field has a specific purpose for synchronization, addressing, and error-checking.
+
+Understanding frame structure is essential for network analysis and troubleshooting.
