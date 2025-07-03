@@ -1,0 +1,9 @@
+Today’s lab session focused on advanced networking concepts using Cisco Packet Tracer. The exercises included configuring routers, switches, and end devices to simulate real-world network scenarios. Key tasks involved:
+
+Setting up inter-VLAN routing
+
+Implementing static and dynamic routing protocols
+
+Verifying connectivity using CLI commands (ping, traceroute, etc.)
+
+Troubleshooting network issues and ensuring proper communication between devices

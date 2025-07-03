@@ -1,0 +1,36 @@
+Today's Networking Concepts
+1. Basic Routing Topology
+
+Understood how different subnets (e.g., 192.168.1.0/24 and 192.168.2.0/24) are connected using a router.
+
+Learned how devices (PCs) in different networks communicate via routers using gateway IPs (.254 in each subnet).
+
+2. Decimal to Binary Conversion
+
+Practiced converting decimal numbers (e.g., 221) to binary using positional values (128, 64, 32, etc.).
+
+Reinforced understanding of binary representation in IP addressing and subnetting.
+
+3. IPv4 Address Classes
+
+Learned about IP classes:
+
+Class A: 0-127
+
+Class B: 128-191
+
+Class C: 192-223
+
+Understood how class affects IP range allocation and usage in networks.
+
+4. Subnet Masks
+
+Explored default subnet masks for IP classes:
+
+Class A: /8 → 255.0.0.0
+
+Class B: /16 → 255.255.0.0
+
+Class C: /24 → 255.255.255.0
+
+Understood their binary representations and role in dividing networks.
