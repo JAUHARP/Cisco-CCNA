@@ -1,0 +1,25 @@
+ Day 09  - VLAN Configuration and Trunking::
+These lab sessions focused on implementing VLANs and VLAN trunking in a switched network using Cisco Packet Tracer:
+
+Day 9 - VLAN Configuration::
+
+Created and managed multiple VLANs on switches
+
+Assigned specific ports to different VLANs
+
+Verified VLAN configurations using show vlan and show interfaces
+
+Improved network segmentation and reduced broadcast traffic
+
+ Day 9 - VLAN Trunking::
+
+Configured trunk ports between switches using switchport mode trunk
+
+Enabled communication of multiple VLANs across switches
+
+Verified trunk links with show interfaces trunk
+
+Demonstrated efficient inter-switch VLAN communication
+
+These labs strengthened my understanding of VLAN implementation, trunking concepts, and Layer 2 network management.
+
