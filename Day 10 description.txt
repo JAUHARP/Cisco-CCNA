@@ -1,0 +1,19 @@
+ Today Learned each field of the IPv4 header—an essential concept for CCNA students and network professionals alike:
+
+Version & IHL – identify IPv4 and header length in 32‑bit words
+
+DSCP & ECN – quality‑of‑service and congestion signalling
+
+Total Length – size of the entire packet
+
+Identification, Flags, Fragment Offset – packet fragmentation details
+
+TTL – hop count limiting for loop prevention
+
+Protocol, Header Checksum, Source/Destination IP – ensuring integrity and routing
+
+Options – advanced header settings
+
+Wireshark demo – practical packet‑capture walkthrough
+
+Bonus quizzes – reinforce learning with five follow‑up questions 
