@@ -1,0 +1,9 @@
+Day 11 - Routing Between Two Routers
+Learning 1: Connecting Two PCs in Different Routers – Part 1
+Learned how to connect two different LANs through separate routers using a third subnet for inter-router communication. Static routes were added manually to allow PC-to-PC communication across routers.
+Learning 2: Connecting Two PCs in Different Routers – Part 2
+Continuation of part 1, with detailed configuration and testing of the setup using Cisco Packet Tracer. Ensured successful ping between PCs in different networks through properly assigned interfaces and routing.
+Lab 1: Lab – Connecting Two PCs in Different Routers (Part 1)
+Implemented static routing between two routers in Packet Tracer. Used subnet 192.168.2.0/24 for router interconnection, assigned proper IPs, and configured static routes for cross-LAN communication.
+Lab 2: Lab – Connecting Two PCs in Different Routers (Part 2)
+Tested and verified the network by pinging across devices. Demonstrated route configuration accuracy and connectivity between end devices through two different routers.
