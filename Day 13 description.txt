@@ -1,0 +1,6 @@
+Day 13 Subnetting Part 1: Learned the basic subnetting concepts in IPv4 addressing including 
+CIDR notation, 
+subnet masks,
+binary conversion, and 
+network/host division. 
+Preparation for CCNA focusing on how to logically divide large networks into smaller segments for better efficiency.
