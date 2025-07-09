@@ -1,0 +1,69 @@
+Today’s session explained the complete journey of a packet from source to destination in a network.
+
+Topics Covered:
+
+The entire process of sending a packet to a remote destination
+
+Address Resolution Protocol (ARP): mapping IP to MAC address
+
+Encapsulation & De-encapsulation: how data is wrapped/unwrapped through OSI layers
+
+Key steps at each layer including headers/trailers added and removed
+
+This session reinforces core CCNA topics like data transmission flow, device interaction, and protocol functions across the network path.
+
+==================================================================================================================
+ Lab Day 12 - Life of a Packet (CCNA)
+Objective:
+Understand and analyze the complete path a packet takes across a network when it is sent from one host to another, including the MAC address resolution and the encapsulation/de-encapsulation process.
+
+Lab Tasks:
+
+PC1 to PC4 Ping Test:
+
+Traced the MAC addresses at each hop in the route from PC1 to PC4.
+
+Identified source and destination MAC addresses across each network segment:
+
+PC1 → SW1
+
+SW1 → R1
+
+R1 → R2
+
+R2 → R3
+
+R3 → SW2
+
+SW2 → PC4
+
+PC1 to PC3 Ping Test:
+
+Verified local communication within the same LAN segment.
+
+Observed ARP process and MAC resolution between PC1, SW1, and PC3.
+
+PC4 to PC1 Ping Test:
+
+Repeated reverse-path MAC tracking from PC4 back to PC1.
+
+Ensured proper ARP and MAC table entries for bidirectional communication.
+
+Tools Used:
+
+Cisco Packet Tracer
+
+CLI for routers and switches
+
+Simulation Mode for ARP and MAC verification
+
+Key Concepts Practiced:
+
+ARP (Address Resolution Protocol)
+
+MAC address learning
+
+Encapsulation/De-encapsulation at each OSI layer
+
+End-to-end packet flow in a routed network
+
