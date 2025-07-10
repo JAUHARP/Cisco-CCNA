@@ -1,0 +1,3 @@
+Day 14 - Subnetting Part 2:
+Continued learning on IP subnetting, including more complex examples and step-by-step methods to calculate subnet addresses, host ranges, and subnet masks. Strengthened understanding of CIDR notation and VLSM for efficient IP address allocation.
+
