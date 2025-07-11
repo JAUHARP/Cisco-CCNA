@@ -1,0 +1,10 @@
+Explores Variable Length Subnet Masking (VLSM) with step-by-step explanation of subnetting a Class C network into subnets of different sizes. Covers:
+- Calculating subnet masks based on host requirements
+- Assigning subnets efficiently without wasting IP addresses
+- Planning hierarchical IP addressing in networks
+
+
+Hands-on lab exercise implementing VLSM subnetting. Demonstrates:
+- Planning and assigning IP subnets based on varying host needs
+- Applying subnet masks and verifying configuration
+- Efficient IP address utilization in network design
