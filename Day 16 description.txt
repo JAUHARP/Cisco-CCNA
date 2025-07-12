@@ -1,0 +1,38 @@
+Day 16 – CCNA 200‑301 Complete Course
+Author: Jeremy's IT Lab
+Duration: ~22 min
+Part: 1 of 3 videos covering VLANs in depth
+
+Overview
+This video introduces VLANs (Virtual Local Area Networks), exploring their definition, purpose, and key benefits in network design. You'll learn:
+
+What VLANs are and why they matter in modern networking
+
+How VLAN tagging segments broadcast domains efficiently
+
+Practical configuration steps using Cisco switches and Packet Tracer
+
+A walkthrough lab session to reinforce theory with real-world CLI commands
+
+Ideal for CCNA 200-301 students, this lesson demystifies VLAN concepts and builds a foundation for the next parts (routing across VLANs, trunking, DTP/VTP).
+
+
+===================================================================================================================
+VLANs (Part 2) – Day 17 – CCNA 200‑301 Complete Course
+Author: Jeremy’s IT Lab
+Duration: ~38 min lecture + ~11 min lab
+Part: 2 of 3 on VLANs
+
+Overview
+This video expands on VLAN fundamentals from Part 1 with advanced topics and hands-on lab work. Topics covered include:
+
+Trunk port configuration using 802.1Q encapsulation
+
+Native VLAN concepts and best practices
+
+Modifying allowed VLANs on trunks to control broadcast domain access
+
+Router‑on‑a‑Stick (inter‑VLAN routing) setup: subinterfaces on routers, IP addressing, and routing traffic between VLANs
+
+Guided Packet Tracer lab to reinforce CLI commands and build real-world configuration skills
+
