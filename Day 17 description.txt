@@ -1,0 +1,61 @@
+Day 17 – VLANs (Part 2)
+
+This session continues the VLAN configuration from the previous lesson. It covers how to implement inter-VLAN communication using router-on-a-stick method in Cisco Packet Tracer. The video is part of the CCNA 200-301 training series.
+
+Topics covered:
+
+VLAN configuration on multiple switches
+
+Trunk port setup and native VLANs
+
+Router sub-interface configuration
+
+Inter-VLAN routing
+
+Troubleshooting VLAN and trunk issues
+
+Tools used:
+
+Cisco Packet Tracer
+
+Basic router and switch CLI
+
+Objective:
+Learn to configure VLANs and route between them using a router-on-a-stick setup. Practice identifying and fixing common misconfigurations.
+
+===================================================================================================================
+
+
+Day 17 – VLANs (Part 3)
+
+Continuing the VLAN series in the CCNA 200-301 course, this lesson dives deeper into VLAN trunking, DTP (Dynamic Trunking Protocol), and VTP (VLAN Trunking Protocol) using Cisco Packet Tracer.
+
+Topics covered:
+
+Access vs trunk port configuration
+
+802.1Q tagging and native VLANs
+
+Dynamic Trunking Protocol modes (auto, desirable)
+
+VLAN pruning best practices
+
+VTP modes (server/client/transparent) and configuration
+
+Hands-on Packet Tracer lab exercises
+
+Learning goals:
+
+Configure inter-switch trunks and set native VLANs
+
+Understand and apply VLAN pruning for security and efficiency
+
+Recognize DTP behavior and disable unwanted auto-negotiation
+
+Use VTP with awareness of its benefits and risks
+
+Tools used:
+
+Cisco Packet Tracer
+
+Cisco switch CLI
