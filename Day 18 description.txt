@@ -1,0 +1,21 @@
+Day 18 - VLANs (Part 3) - CCNA 200-301
+
+This session covers advanced VLAN concepts and introduces inter-VLAN routing. Topics include VLAN trunking, 802.1Q tagging, router-on-a-stick configuration, and enabling communication between different VLANs. A hands-on Packet Tracer lab demonstrates how to configure and troubleshoot inter-VLAN routing in a simulated network. Part of the full CCNA 200-301 course.
+
+===================================================================================================================
+
+Day 18 Lab – VLANs (Part 3) – CCNA 200‑301
+
+This lab video dives into the practical steps of configuring VLANs and inter‑VLAN routing using Packet Tracer. You’ll work through:
+
+Setting up multiple VLANs on switches
+
+Trunking configuration to carry VLAN traffic
+
+Router-on-a-stick setup for inter‑VLAN communication
+
+Verifying connectivity across VLANs
+
+Troubleshooting common configuration issues
+
+A hands-on simulation reinforces the theoretical concepts from VLAN theory, and it's part of the complete CCNA 200‑301 series
