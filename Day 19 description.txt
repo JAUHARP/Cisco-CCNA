@@ -1,0 +1,9 @@
+DAY 19 -DTP,VTP
+================
+This lab video covers the configuration of Dynamic Trunking Protocol (DTP) and VLAN Trunking Protocol (VTP) using Cisco Packet Tracer as part of the CCNA 200-301 course. It demonstrates how to manually configure trunk ports, disable automatic DTP negotiation, and set up a VTP domain with server and client modes. The video explains how VTP helps in synchronizing VLAN information across multiple switches, highlights the function of VTP transparent mode, and shows how VLANs behave in different VTP configurations. It also includes security practices like setting VTP passwords to prevent unauthorized updates. This hands-on lab helps reinforce key VLAN and trunking concepts essential for CCNA preparation.
+
+
+===================================================================================================================
+DAY 19 LAB
+
+This lab video, "Free CCNA | DTP/VTP | Day 19 Lab", is part of Jeremy’s IT Lab CCNA 200‑301 series. It uses Cisco Packet Tracer to teach how to configure and manage VLAN trunking. You’ll learn to manually set up trunk ports and disable automatic DTP negotiation, configure a VTP domain with designated server and client switches, and understand how VLAN information is synchronized across network devices. The instructor also demonstrates using VTP transparent mode and outlines best practices for securing VTP updates with passwords. The hands-on exercises reinforce essential concepts in VLAN management and trunk security, making it a valuable resource for anyone preparing for the CCNA exam
