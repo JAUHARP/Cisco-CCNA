@@ -1,0 +1,52 @@
+Day 20 – Spanning Tree Protocol (Part 1) from Jeremy’s IT Lab CCNA 200-301 video series. The video introduces the basics of Spanning Tree Protocol (STP), explaining its purpose in preventing Layer 2 switching loops and ensuring a loop-free topology in redundant network designs.
+
+Key concepts covered include:
+
+The need for STP in switched networks
+
+Root bridge election process
+
+STP port roles: Root Port, Designated Port, and Non-Designated (Blocked) Port
+
+Bridge Protocol Data Units (BPDUs) and their function
+
+Port states (Blocking, Listening, Learning, Forwarding)
+
+Basic STP configuration and observation in a Cisco Packet Tracer lab
+
+This lab is essential for understanding how switches maintain loop-free environments using STP and how to configure and verify it in a simulated Cisco network.
+
+===================================================================================================================
+
+
+Day 20 – Spanning Tree Protocol (Part 1): Analyzing STP
+
+This lab focuses on understanding how Spanning Tree Protocol (STP) prevents Layer 2 loops in switched networks. Using a redundant topology of multiple interconnected switches, this exercise demonstrates how STP selects a root bridge and determines which switch ports should forward traffic and which should be blocked to ensure a loop-free environment.
+
+Key Concepts Covered:
+
+Bridge Protocol Data Units (BPDUs)
+
+Root Bridge election process
+
+Port roles: Root Port, Designated Port, and Non-Designated (Blocked) Port
+
+STP port states: Blocking, Listening, Learning, Forwarding
+
+Path cost calculation and port role assignment
+
+STP CLI commands: show spanning-tree, show spanning-tree vlan X
+
+Lab Objectives:
+
+Build a redundant switched topology
+
+Analyze which switch becomes the root bridge based on Bridge ID (priority + MAC address)
+
+Manually determine port roles and expected STP behavior
+
+Verify port roles and states using CLI commands
+
+Observe how STP prevents loops by blocking redundant paths
+
+This lab provides essential hands-on practice for CCNA candidates, helping build a solid foundation in Layer 2 redundancy and loop prevention using standard IEEE 802.1D STP.
