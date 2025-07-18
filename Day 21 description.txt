@@ -1,0 +1,82 @@
+video-1
+========
+
+Day 21 – Spanning Tree Protocol (Part 2)
+
+This lab and video session continues the explanation of the Spanning Tree Protocol (STP) as part of the Free CCNA series by Jeremy’s IT Lab. It focuses on the detailed functioning of STP, including the different port states (Blocking, Listening, Learning, Forwarding) and the timers associated with each phase. The video explains how STP helps in building a loop-free Layer 2 topology by blocking redundant paths and how it reacts to changes in the network topology.
+
+It also covers how STP convergence works and demonstrates configuration examples to show how switching devices maintain stability and prevent broadcast storms. This session is important for understanding the foundational switching behavior in Ethernet networks and prepares learners for more advanced protocols like Rapid STP. The concepts are presented clearly with visuals and practical examples to help reinforce learning.
+
+===================================================================================================================video-2
+========
+
+Day 21 – PortFast & STP Toolkit (Part 1)
+
+This session from Jeremy’s IT Lab Free CCNA series focuses on the PortFast feature within the Spanning Tree Protocol (STP). PortFast is used to allow switch ports connected to end devices (like PCs and printers) to immediately enter the forwarding state, bypassing the usual listening and learning states, which reduces startup delay.
+
+The video explains the importance of PortFast in real-world networks, especially for improving connectivity speed for end-user devices. It includes practical CLI configuration examples and demonstrates how PortFast works on actual hardware. Additionally, the video introduces STP security tools like BPDU Guard, which should be used in combination with PortFast to protect against network loops caused by misconfigurations.
+
+This lesson is crucial for understanding how to optimize STP behavior in enterprise networks while maintaining safety and efficiency
+
+===================================================================================================================video-3
+========
+
+Day 21 – BPDU Guard & BPDU Filter (Part 2)
+
+This video from Jeremy’s IT Lab Free CCNA series focuses on two important STP security features: BPDU Guard and BPDU Filter. These features are part of the STP Toolkit used to protect the network from misconfigurations and potential loops.
+
+BPDU Guard is used to automatically shut down a PortFast-enabled port if it receives a BPDU, helping to prevent accidental connections of switches to access ports. BPDU Filter can be used to block the sending or receiving of BPDUs on specific ports, providing control over where BPDUs are allowed in the network.
+
+The video includes CLI configuration steps for both features, practical lab demonstrations, and explains when and how to use these tools correctly. These protections are essential in maintaining a secure and loop-free Layer 2 network.
+
+
+===================================================================================================================video-4
+========
+
+Day 21 – Root Guard & Loop Guard (Part 3)
+
+This session from Jeremy’s IT Lab Free CCNA series explores two critical Spanning Tree Protocol (STP) protection mechanisms: Root Guard and Loop Guard—part of the STP Toolkit.
+
+Root Guard: Ensures that designated ports never become the root bridge by default. If a superior Bridge Protocol Data Unit (BPDU) arrives, the port is put into a "root-inconsistent" state, preserving your intended root structure.
+
+Loop Guard: Monitors STP’s blocking ports that don’t receive BPDUs. If BPDUs suddenly stop, Loop Guard prevents the port from transitioning to forwarding and causing a network loop.
+
+The video provides clear CLI configuration guidance, along with real lab demonstrations highlighting how these tools function when unexpected BPDUs or topology changes occur. It also includes best practices for deploying these features to maintain a stable, loop-free Layer 2 network.
+
+This lesson is essential for network administrators looking to reinforce STP’s resilience in a production environment.
+
+===================================================================================================================video-5
+========
+
+Day 21 (part 4) – Loop Guard (STP Toolkit)
+
+This lesson from Jeremy’s IT Lab Free CCNA series explores Loop Guard, a critical Spanning Tree Protocol (STP) feature that prevents Layer 2 loops when BPDUs are unexpectedly not received on ports that should be blocked.
+
+Purpose of Loop Guard: If a port stops receiving BPDUs (e.g., due to unidirectional link issues or misconfigurations), Loop Guard keeps the port in a blocking state rather than letting it transition to forwarding and cause a loop.
+
+Behavior in STP topology changes: The video walks through scenarios where BPDU flow is interrupted and shows how Loop Guard reacts to maintain network stability.
+
+CLI commands: Demonstrates how to enable Loop Guard globally or per interface.
+
+Lab demonstration: Real hardware tests illustrate what happens when Loop Guard is absent—and what happens when it is enabled.
+
+This session is vital for ensuring robust and loop-free networks in complex enterprise environments.
+
+===================================================================================================================video-6
+========
+
+Day 22 – Rapid Spanning Tree Protocol (RSTP) Lab
+
+This hands-on lab session from Jeremy’s IT Lab Free CCNA 200‑301 series focuses on Rapid Spanning Tree Protocol (RSTP) configuration and behavior in a CCNA-level topology.
+
+Real equipment lab: Walks through a live RSTP configuration using CLI on switches.
+
+Fast convergence: Demonstrates how RSTP speeds up topology changes compared to traditional STP.
+
+Port roles: Covers RSTP port types—Alternate, Backup, Designated—and how they impact state transitions.
+
+Topology change handling: Shows how RSTP responds to link failures and sends RSTP-specific BPDUs.
+
+Best practices: Includes configuration tips and network design considerations for effective RSTP deployment.
+
+Note: This lab is part of Day 22 in the CCNA practice series and builds directly on the STP Toolkit lessons from Day 21
