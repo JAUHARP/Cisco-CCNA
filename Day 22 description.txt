@@ -1,0 +1,9 @@
+Day 22 – Rapid Spanning Tree Protocol (RSTP) – CCNA 200-301
+
+This video focuses on Rapid Spanning Tree Protocol (RSTP) and its Cisco-specific implementations such as PVST+ and Rapid PVST+. It explains how RSTP improves convergence time compared to traditional STP and ensures faster network recovery. Key topics include RSTP port roles (root, designated, alternate, backup), port states (discarding, learning, forwarding), and link types (edge, point-to-point, shared). The video also demonstrates configuration using commands like spanning-tree portfast and discusses how to identify the root bridge in a switched network. This session is part of the complete CCNA 200-301 training series.
+
+===================================================================================================================
+
+Day 22 Lab – Rapid Spanning Tree Protocol (RSTP) – CCNA 200-301
+
+This lab demonstrates the configuration and verification of Rapid Spanning Tree Protocol (RSTP) using Cisco’s Rapid PVST+ mode. The session includes building a multi-switch topology, enabling RSTP with the spanning-tree mode rapid-pvst command, and configuring edge ports with spanning-tree portfast. The lab tests RSTP’s fast convergence by simulating link failures and observing port state transitions. It also covers how to identify port roles such as root, designated, and alternate using the show spanning-tree command, and discusses how to troubleshoot common spanning tree issues. This is part of the hands-on lab section of the CCNA 200-301 course.
