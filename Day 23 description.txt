@@ -1,0 +1,55 @@
+Day 23 – EtherChannel | CCNA 200-301
+
+This session covers EtherChannel, a key concept in CCNA that allows bundling of multiple physical links into a single logical link for increased bandwidth and redundancy.
+
+Topics Covered:
+- What is EtherChannel and its purpose
+- Benefits: redundancy, load balancing, and easier management
+- Protocols used: 
+  - LACP (Link Aggregation Control Protocol)
+  - PAgP (Port Aggregation Protocol)
+  - Static mode (on)
+- Configuration of port-channel interfaces
+- Mode options: active/passive/desirable/auto/on
+- Key verification commands:
+  - show etherchannel summary
+  - show interfaces port-channel
+  - show run interface port-channel
+
+Lab Includes:
+- EtherChannel configuration using LACP
+- Grouping of interfaces into port-channels
+- Load balancing demonstration
+- Verifying link aggregation and redundancy handling
+
+===================================================================================================================
+
+Day 23 Lab – EtherChannel | CCNA 200-301
+
+This lab demonstrates the configuration and verification of EtherChannel, which combines multiple physical links into one logical link to increase bandwidth and provide redundancy.
+
+Lab Objectives:
+- Configure EtherChannel using LACP (Link Aggregation Control Protocol)
+- Set up interfaces for port-channel grouping
+- Apply trunk configuration to the port-channel
+- Verify EtherChannel setup and status
+
+Lab Tasks:
+1. Connect two switches with two or more Ethernet cables
+2. Configure interfaces on both switches with:
+   interface range fa0/1 - 2
+     channel-group 1 mode active
+3. Configure the logical port-channel interface:
+   interface port-channel 1
+     switchport mode trunk
+4. Verify configuration using:
+   - show etherchannel summary
+   - show interfaces port-channel
+   - show run interface port-channel
+
+Expected Outcome:
+- All grouped interfaces should operate as one logical link
+- Proper trunking on port-channel
+- EtherChannel status shows as “P” (in port-channel)
+
+This lab reinforces the understanding of link aggregation and helps in preparing for related topics in the CCNA 200-301 exam.
