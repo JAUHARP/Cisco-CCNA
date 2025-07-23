@@ -1,0 +1,31 @@
+Day 24 - Dynamic Routing (CCNA 200-301)
+
+This session focuses on dynamic routing protocols, which enable routers to automatically learn and exchange routing information. Key protocols such as RIP, EIGRP, and OSPF are introduced, explained, and compared in terms of functionality and efficiency. The video includes practical demonstrations on how to configure these protocols and verify their operation using essential CLI commands.
+
+Topics Covered:
+- What is dynamic routing?
+- Differences between static and dynamic routing
+- Routing Information Protocol (RIP)
+- Enhanced Interior Gateway Routing Protocol (EIGRP)
+- Open Shortest Path First (OSPF)
+- Metric-based path selection
+- Routing table updates
+- Configuration and verification commands
+
+
+
+===================================================================================================================
+
+Day 24 Lab - Floating Static Routes (CCNA 200-301)
+
+This lab teaches you how to configure floating static routes as backup paths for dynamic routing. You’ll learn:
+- What floating static routes are and why they matter.
+- How to assign a higher administrative distance to make a static route “float” (only become active when needed).
+- A hands-on Packet Tracer lab setup demonstrating dynamic routing with a primary dynamic route and a secondary floating static route.
+- The process of simulating a link failure to observe the failover behavior, showing the backup route taking over seamlessly.
+
+Key concepts covered:
+- Dynamic vs. static routes
+- Administrative distance
+- Route redundancy and high availability
+- Failover validation via `ping` tests
