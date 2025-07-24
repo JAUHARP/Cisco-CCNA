@@ -1,0 +1,32 @@
+Day 25 – RIP & EIGRP (CCNA 200-301)
+
+This lab covers the configuration and verification of two important dynamic routing protocols: RIP (Routing Information Protocol) and EIGRP (Enhanced Interior Gateway Routing Protocol). Using Cisco Packet Tracer and CLI, this session demonstrates how to:
+
+
+Configure RIP with proper versioning and network statements
+
+Understand RIP's limitations like hop count and slow convergence
+
+Set up EIGRP with Autonomous System numbers
+
+Use key commands like show ip route, show ip protocols, and show ip eigrp neighbors
+
+Compare the operation of RIP vs EIGRP in real scenarios
+
+===================================================================================================================
+
+Day 25 – RIP & EIGRP
+
+This lab dives into two essential distance‑vector routing protocols: RIP (Routing Information Protocol) and EIGRP (Enhanced Interior Gateway Routing Protocol). Using Cisco Packet Tracer and command‑line interface:
+
+Configure RIP (RIPv1 and RIPv2) including version selection, network definitions, passive‑interface setup, and advertisement of a default route
+
+Run show commands like show ip protocols and show ip route to verify RIP behavior
+
+Enable EIGRP with an autonomous system number, apply wildcard masks, and configure router‑ID
+
+Explore EIGRP metrics, route selection, and unequal‑cost load balancing
+
+Validate EIGRP neighbors and learned routes using show ip eigrp neighbors, show ip protocols, and show ip route
+
+Lab duration: approximately 23 minutes
