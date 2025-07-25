@@ -1,0 +1,19 @@
+Day 26 – OSPF Part 1 | CCNA 200-301
+
+This lab and video cover the foundational concepts of OSPF (Open Shortest Path First) as part of the CCNA 200-301 course by Jeremy’s IT Lab.
+
+Topics Covered:
+- Introduction to OSPF
+- Link-State vs Distance-Vector Protocols
+- LSDB (Link-State Database) and LSA Types
+- SPF Algorithm Basics
+- OSPF Areas and Backbone (Area 0)
+- Router ID configuration
+- Passive Interfaces
+- OSPF Configuration Commands
+- Verifying OSPF with show commands
+- Quiz-style review at the end
+===================================================================================================================
+Day 26 Lab-configuring ospf
+
+This lab focuses on configuring single-area OSPF (Open Shortest Path First) as introduced in Day 26 of the CCNA 200-301 series by Jeremy’s IT Lab. Three routers (R1, R2, and R3) are connected in a triangular topology, each with a loopback interface representing a unique network. The objective is to enable OSPF on all routers, assign router IDs, and advertise directly connected networks within Area 0 using wildcard masks. Key verification steps include checking OSPF neighbor relationships, viewing the OSPF routing table, and inspecting the link-state database. Passive interfaces are configured on loopbacks to prevent unnecessary OSPF hello packets. This lab helps reinforce foundational OSPF concepts such as neighborship, LSDB synchronization, and route learning across a single OSPF area.
