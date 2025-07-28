@@ -1,0 +1,30 @@
+Day 27 - OSPF Configuration (Part 2)
+
+This session continues the deep dive into OSPF (Open Shortest Path First) routing protocol, as part of the CCNA 200-301 lab series. It covers advanced OSPF concepts including cost calculation, neighbor relationships, Hello/Dead timers, and practical configuration across multiple routers. Hands-on implementation is done using Cisco Packet Tracer.
+
+Key Topics Covered:
+- OSPF metric (cost) and interface bandwidth
+- Neighbor adjacency and state transitions
+- Router ID selection
+- Configuring OSPF on Cisco routers
+- OSPF troubleshooting using 'show' commands
+
+Tools Used: Cisco Packet Tracer
+
+===================================================================================================================
+Day 27 - OSPF Configuration Lab (Part 2)
+
+This lab focuses on advanced OSPF configuration as part of the CCNA 200-301 training. Three routers (R1, R2, R3) are interconnected using serial links, and each router has a loopback interface configured to simulate real-world scenarios. The lab demonstrates OSPF configuration using router IDs, network advertisement, and neighbor formation.
+
+Key Concepts:
+- OSPF Router ID selection using loopback interfaces
+- OSPF neighbor relationships over serial links
+- Network advertisement using the 'network' command
+- OSPF process ID and area configuration
+- Verifying OSPF neighbors and routing tables
+
+Topology:
+R1 <--> R2 <--> R3 (with Loopback interfaces on each router)
+
+Tools Used: Cisco Packet Tracer
+Video Reference: https://www.youtube.com/watch?v=VtzfTA21ht0&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&index=55
