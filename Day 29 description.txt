@@ -1,0 +1,39 @@
+
+
+
+First Hop Redundancy Protocols (FHRP) Lab – CCNA Day 29
+
+This lab demonstrates the configuration and verification of First Hop Redundancy Protocols using HSRP (Hot Standby Router Protocol), based on Jeremy’s IT Lab CCNA 200‑301 series – Day 29.
+
+Lab Features:
+- Configures HSRP v2 between two routers (R1 and R2)
+- Assigns a virtual IP address as the default gateway for hosts
+- Sets router priorities and enables preemption for Active/Standby roles
+- Verifies FHRP functionality with show commands, ARP table checks, and failover simulation
+
+Learning Outcomes:
+- Understand the purpose of FHRP in providing gateway redundancy
+- Configure HSRP to ensure uninterrupted host connectivity
+- Test and verify failover and recovery between redundant routers
+
+Includes:
+- Full router configurations
+- Test results (ping, ARP, and failover behavior)
+- Topology diagram and setup notes
+============================================================================================================================================================
+HSRP Configuration Lab – CCNA Day 29
+
+This lab demonstrates Hot Standby Router Protocol (HSRP) configuration for gateway redundancy, based on Jeremy's IT Lab – CCNA 200‑301 Day 29.
+
+Lab Features:
+- Configures HSRP v2 between two routers (R1 and R2)
+- Sets virtual IP as the default gateway for client PCs
+- Uses priority and preemption to control Active/Standby router roles
+- Verifies failover and recovery using ping, show standby, and ARP commands
+
+Learning Outcomes:
+- Understand how HSRP ensures network resilience
+- Configure routers for seamless gateway failover
+- Apply default gateway and ARP principles in LAN setups
+
+Includes router configurations and test results for both failover and recovery scenarios.

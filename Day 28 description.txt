@@ -1,0 +1,16 @@
+Day 28 Lab – OSPF Configuration (Part 3)
+
+This lab focuses on the third part of configuring Open Shortest Path First (OSPF) as part of the CCNA training series. It involves setting up multiple routers with OSPF, verifying neighbor relationships, and troubleshooting adjacency issues. The lab covers practical configuration using CLI commands such as 'router ospf', 'network', and 'area', and includes tips on multi-area OSPF design. This is a continuation of the OSPF lab series and is essential for mastering dynamic routing in enterprise networks.
+
+===================================================================================================================
+Day 27 Lab – OSPF Configuration (Part 2)
+
+This lab is part 2 of the OSPF (Open Shortest Path First) configuration series in the CCNA 200‑301 course. The video covers:
+
+- Calculating and adjusting OSPF cost, including changing reference bandwidth  
+- Understanding OSPF neighbor states from Down to Full  
+- Key 'show' commands used for verification and troubleshooting  
+- Detailed explanations of OSPF message types  
+- Hands-on routing configuration and cost-based tuning to influence path selection
+
+This is the continuation from Day 26’s OSPF Part 1 and deepens your understanding of OSPF metrics, neighbor adjacency, and advanced configuration steps. Perfect for CCNA candidates and network engineering learners.
