@@ -1,0 +1,36 @@
+Day 30 – TCP & UDP (Transport Layer Protocols)
+
+This session covers the fundamentals of Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), key protocols at the Transport Layer (Layer 4) of the OSI model.
+
+Topics covered:
+
+TCP vs UDP differences
+
+TCP 3-way handshake
+
+Characteristics and use cases of UDP
+
+Port numbers and their importance
+
+Connection-oriented vs connectionless protocols
+
+Examples: HTTP, DNS, TFTP, etc.
+
+===================================================================================================================Day 31 – Wireshark Demo: TCP & UDP (Lab)
+
+This lab demonstrates the use of Wireshark to capture and analyze TCP and UDP traffic. It includes practical examples of file transfers using FTP (TCP-based) and TFTP (UDP-based).
+
+Topics covered:
+
+Capturing live network packets using Wireshark
+
+Analyzing TCP 3-way handshake and session termination
+
+Observing UDP communication with TFTP
+
+Understanding TCP flags: SYN, ACK, FIN
+
+Exploring UDP headers and behavior
+
+Using filters in Wireshark for targeted analysis
+

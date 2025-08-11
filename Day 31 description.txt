@@ -1,0 +1,37 @@
+Day 31 – IPv6 (Part 1)
+
+This session introduces IPv6, the successor to IPv4, designed to solve the problem of IP address exhaustion and improve overall network efficiency.
+
+Topics covered:
+
+Need for IPv6 and limitations of IPv4
+
+IPv6 address format and structure (128-bit, hexadecimal notation)
+
+Types of IPv6 addresses: Unicast, Multicast, Anycast
+
+IPv6 header simplification compared to IPv4
+
+Basics of Stateless Address Autoconfiguration (SLAAC)
+
+Transition strategies between IPv4 and IPv6
+
+===================================================================================================================
+
+Day 31 – Lab: Configuring IPv6 (Part 1)
+
+This lab focuses on hands-on IPv6 configuration using Cisco CLI in a simulated environment.
+
+Topics covered:
+
+Assigning IPv6 addresses to router interfaces
+
+Enabling IPv6 routing using ipv6 unicast-routing
+
+Verifying IPv6 configuration with show commands
+
+Understanding link-local vs global unicast addresses
+
+Using ping and show ipv6 interface to test connectivity
+
+Basic network communication between IPv6-enabled routers and PCs

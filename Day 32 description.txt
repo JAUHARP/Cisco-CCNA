@@ -1,0 +1,7 @@
+Day 32 - OSPF (part2)
+
+ I learned about different IPv6 address types and the Modified EUI-64 format. IPv6 addresses come in several types: Global Unicast for internet communication, Unique Local for private networks, Link-Local for communication within the same local network, Multicast for sending data to multiple devices, and Anycast, which sends data to the nearest of several devices sharing the same address. I also learned about the Modified EUI-64 method, which automatically creates the second half of an IPv6 address using a device's MAC address, commonly used in auto-configuration.
+
+===================================================================================================================day 32 lab - ospf lab
+
+In today's lab, I practiced configuring IPv6 using the EUI-64 format on router interfaces G0/1 of R1 and R2. I started by calculating the EUI-64 interface IDs based on each router’s MAC address. Then, I configured IPv6 addresses and default gateways on PC1 and PC2, making sure they could communicate. I enabled IPv6 on the routers’ G0/0 interfaces without manually setting an IP address. Finally, I added static IPv6 routes on both routers so that PC1 could reach PC2 across the network. This lab helped reinforce how IPv6 addressing and routing works, and prepared me for learning static routes in more depth on Day 33.
