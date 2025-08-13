@@ -1,0 +1,28 @@
+
+
+ Day 33 – IPv6 Part 3 | Jeremy’s IT Lab | CCNA 200-301
+
+ Topics Covered:
+- Correction from a previous lesson
+- IPv6 header structure and components
+- Neighbor Discovery Protocol (NDP)
+- Stateless Address Autoconfiguration (SLAAC)
+- IPv6 static routing (lab demonstration)
+
+
+===================================================================================================================
+Day 33: Configuring IPv6 (Part 3).
+
+Topics covered include:
+- IPv6 static routing
+- Directly connected, recursive, and fully specified static routes
+- Default and floating static routes
+- IPv6 routing table analysis (show ipv6 route)
+- Link-local next-hop configuration and behavior
+
+Included files:
+- Packet Tracer lab files (.pkt)
+- CLI configuration scripts (.txt)
+- Summary notes
+
+This lab is designed to help CCNA students reinforce their understanding of IPv6 routing concepts through hands-on practice.
